@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <a class="w3-padding-large w3-black" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#about">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+ 
+  <a class="w3-padding-large w3-hover-black" href="#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:25% !important"><a href="#">HOME</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#about">ABOUT</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#photos">PHOTOS</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#contact">CONTACT</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Roemar Pajaron </h1>
+    <p></p>
+    <img src="roemar2.jpg" alt="boy" class="w3-image" width="200" height="220">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Headline</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> Don't judge a book by its cover. 
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">About me</h3>
+    <p>Hi, i'm Roemar i'm taking a Bachelors degree in Computer Engineering at Polytechnic University of the Philippines. I want to be a Network engineer someday so after graduating a plan to take several seminars and short courses to fulfill my dream.</p>
+    <h4 class="w3-padding-16 w3-text-light-grey">My Skills</h4>
+    <p class="w3-wide">Hardware</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:75%"></div>
+    </div>
+    <p class="w3-wide">Programming</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:70%"></div>
+    </div><br>
+    <p class="w3-wide">Electronics</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:70%"></div>
+    </div><br>
+    <p class="w3-wide">Circuits</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:70%"></div>
+    </div><br>
+  </div>
+<h3 class="w3-padding-16 w3-text-light-grey">My OJT experiences</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">XSPlatforms Phils.</li>
+          <li class="w3-padding-16">SEO Trainee</li>
+          <li class="w3-padding-16">Data Updates</li>
+          <li class="w3-padding-16">Location: Makati</li>
+          <li class="w3-padding-16">
+            <h2>200php</h2>
+            <span class="w3-opacity">per day</span>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">DataWatch Corp.</li>
+          <li class="w3-padding-16">Software Quality Assurance</li>
+          <li class="w3-padding-16">Bug Detection</li>
+          <li class="w3-padding-16">Location: Ortigas</li>
+          
+          <li class="w3-padding-16">
+            <h2>250php</h2>
+            <span class="w3-opacity">per day</span>
+          </li>
+          
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <a href="https://github.com/rcpajaron">
+<img border="0" alt="W3Schools" src="git2.png" width="100" height="100">
+      <a href="https://github.com/rcpajaron/myapp">
+<img border="0" alt="W3Schools" src="insta.png" width="100" height="100">
+      <a href="https://facebook.com/rcpajaron">
+<img border="0" alt="W3Schools" src="fb.png" width="100" height="100">
+    </div><br>
+    
+
+    
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Visit our Git Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+     <p>
+<a href="https://github.com/rcpajaron/myapp">
+<img border="0" alt="W3Schools" src="git.png" width="100" height="100">
+</a>
+</p>
+<p> 2016 COEN 3463 Team 15 </p>
+   
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>

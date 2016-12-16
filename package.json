@@ -1,0 +1,23 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts" : {
+        "start": "node app.js"
+    },
+  "author": "Roemar Pajaron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcpajaron/myapp/issues"
+  },
+  "homepage": "https://github.com/rcpajaron/myapp#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcpajaron/myapp.git"
+  },
+  "description": ""
+}
